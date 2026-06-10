@@ -1,0 +1,40 @@
+MedChain — Developer Journal
+═══════════════════════════════════════════════════════
+
+## Week 1 — Project Scaffold
+- Created monorepo structure: backend (Express), blockchain (Hardhat), frontend (React+Vite)
+- Set up MongoDB Atlas cluster, Pinata IPFS, OpenAI & Twilio credentials
+- Deployed initial Smart Contracts to Polygon Mumbai testnet
+- Wrote base User + Patient + Doctor + HealthRecord schemas
+- Journal: setup mostly smooth; Pinata API rate limit hit twice
+
+## Week 2 — Core Backend & Blockchain
+- Completed all REST routes with JWT auth + RBAC middleware
+- Wrote encryption.service (AES-256-GCM), ipfs.service, blockchain.service
+- 20+ Jest tests passing (auth, records, AI)
+- All 4 contracts tested including Reentrancy attack on PaymentEscrow
+- Journal: Solidity ReentrancyGuard caught one bug; fixed with Checks-Effects-Interactions
+
+## Week 3 — Frontend Foundation
+- Vite + Tailwind scaffolded; reusable Button, Card, Modal components
+- Auth pages (Login/Register) wired to backend; JWT stored in localStorage
+- Patient Dashboard shows vitals chart (Chart.js) and recent records
+- Connected MetaMask via ethers.js; WalletContext provides signer
+
+## Week 4 — Feature Completion
+- Patient Records page: upload to IPFS → store CID on-chain → display gallery
+- Appointment booking: slot selection → PaymentEscrow deposit → Twilio Video room
+- AI Chat: GPT-4 with RAG — patient messages → context → answer
+- Doctor Portal: patient list, consent management, video consult room
+
+## Week 5 — Integration & Hardening
+- Cypress E2E: patient-journey, booking-payment, ai-chat, doctor-portal
+- express-validator on every route; rate limiting; error handler
+- OWASP ZAP scan: 1 medium (missing CSP header), 4 low — all fixed
+- Slither on contracts: no critical issues; 2 informational resolved
+
+## Week 6 — Polish & Report
+- Responsive design pass on all views
+- Demo script written; viva Q&A prepared
+- Architecture diagram finalised
+- Weekly docs complete (week-01 through week-15)

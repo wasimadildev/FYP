@@ -1,0 +1,14 @@
+PLACEHOLDER: This is a text file representing the ai-chat.png wireframe image.
+
+Replace this file with the actual wireframe mockup for the AI Chat interface.
+The AI Chat interface should show:
+- Sidebar with conversation history list (previous chat sessions with timestamps)
+- Main chat area with:
+  - Header: "MedChain AI Assistant" with avatar icon
+  - Message bubbles: user messages right-aligned (blue), AI responses left-aligned (gray)
+  - AI responses formatted with markdown: headings, bullet points, bold text
+  - Medical disclaimer banner at top of chat area
+  - Typing indicator (animated dots) while AI is generating response
+  - Input area at bottom with text input field and send button
+  - Character counter showing remaining characters (max 2000)
+  - Quick action buttons: "Analyze Symptoms", "Find Specialist", "Summarize Record"

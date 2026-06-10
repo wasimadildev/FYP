@@ -1,0 +1,14 @@
+PLACEHOLDER: This is a text file representing the doctor-portal.png wireframe image.
+
+Replace this file with the actual wireframe mockup for the doctor portal.
+The doctor portal should show:
+- Top navigation bar with MedChain logo and doctor avatar
+- Sidebar with links: My Patients, Appointments, Video Consult
+- Main area: patient list with search bar and filter by specialty
+- Patient cards showing: name, age, last visit date, record count
+- Clicking a patient opens patient detail view:
+  - Patient info header (name, DOB, blood type, allergies)
+  - Records tab with file list and access status indicators
+  - Consent status badge (granted/requested/expired)
+  - Request Access button for unconsented records
+- Appointments tab showing today's schedule

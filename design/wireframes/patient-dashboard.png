@@ -1,0 +1,10 @@
+PLACEHOLDER: This is a text file representing the patient-dashboard.png wireframe image.
+
+Replace this file with the actual wireframe mockup for the patient dashboard.
+The patient dashboard should show:
+- Top navigation bar with MedChain logo and user avatar
+- Sidebar with links: Dashboard, Records, Appointments, AI Chat, Audit Log
+- Main area: greeting card with patient name and health summary
+- Quick stats: records count, upcoming appointment, unread notifications
+- Recent records table with columns: File Name, Type, Uploaded Date, Status
+- Upcoming appointments widget showing next 3 appointments
